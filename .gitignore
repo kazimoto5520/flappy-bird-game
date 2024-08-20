@@ -1,0 +1,32 @@
+# Ignore binary output files (compiled classes)
+bin/
+
+# Ignore libraries (if you're including third-party jars)
+lib/
+
+# Optionally, ignore IDE-specific files and folders
+*.class
+*.jar
+*.log
+*.war
+*.ear
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files created by the system
+*.swp
+*.swo
+*~
+
+# Ignore project-specific IDE files (additionally, depending on your IDE)
+# IntelliJ IDEA
+.idea/
+*.iml
+# Eclipse
+.project
+.classpath
+.settings/
+# VS Code
+.vscode/
